@@ -1,8 +1,8 @@
 ﻿window.contactConfig = {
   email: "libozhanpak@gmail.com",
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/dintom-li-23b5963a0/",
   github: "https://github.com/ahaxxxx",
-  whatsapp: "https://wa.me/8613800000000"
+  whatsapp: "+86 15521414475"
 };
 
 (function () {
