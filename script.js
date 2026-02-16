@@ -1,14 +1,9 @@
-﻿const contactBtn = document.getElementById("contactBtn");
-const clickInfo = document.getElementById("clickInfo");
-const themeToggle = document.getElementById("themeToggle");
+﻿document.addEventListener("DOMContentLoaded", () => {
+  window.Language.initLanguage();
+  window.Theme.initTheme();
+  window.Contact.renderContact();
 
-let clicks = 0;
-
-contactBtn.addEventListener("click", () => {
-  clicks += 1;
-  clickInfo.textContent = `Thanks for visiting MahamCodes. Contact intent recorded (${clicks}).`;
-});
-
-themeToggle.addEventListener("click", () => {
-  document.body.classList.toggle("alt-accent");
+  document.addEventListener("languagechange", () => {
+    window.Contact.renderContact();
+  });
 });
