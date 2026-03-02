@@ -1,8 +1,8 @@
-﻿window.contactConfig = {
-  email: "libozhanpak@gmail.com",
-  linkedin: "https://www.linkedin.com/in/dintom-li-23b5963a0/",
-  github: "https://github.com/ahaxxxx",
-  whatsapp: "+86 15521414475"
+window.contactConfig = {
+  email: "libozhanpak@qq.com",
+  homepage: "https://ahaxxxx.github.io/portfolio/",
+  crm: "https://ahaxxxx.github.io/Xenta-Field-CRM-Static-/",
+  whatsapp: "+86-15521414475"
 };
 
 (function () {
@@ -26,8 +26,8 @@
     container.innerHTML = "";
 
     const emailLabel = window.Language.t("contact.email", "Email");
-    const linkedInLabel = window.Language.t("contact.linkedin", "LinkedIn");
-    const githubLabel = window.Language.t("contact.github", "GitHub");
+    const homepageLabel = window.Language.t("contact.homepage", "Personal Website");
+    const crmLabel = window.Language.t("contact.crm", "CRM System");
     const whatsappLabel = window.Language.t("contact.whatsapp", "WhatsApp");
 
     if (window.contactConfig.email) {
@@ -57,12 +57,12 @@
       container.appendChild(emailWrap);
     }
 
-    if (window.contactConfig.linkedin) {
-      container.appendChild(createContactItem(linkedInLabel, window.contactConfig.linkedin, window.contactConfig.linkedin));
+    if (window.contactConfig.homepage) {
+      container.appendChild(createContactItem(homepageLabel, window.contactConfig.homepage, window.contactConfig.homepage));
     }
 
-    if (window.contactConfig.github) {
-      container.appendChild(createContactItem(githubLabel, window.contactConfig.github, window.contactConfig.github));
+    if (window.contactConfig.crm) {
+      container.appendChild(createContactItem(crmLabel, window.contactConfig.crm, window.contactConfig.crm));
     }
 
     if (window.contactConfig.whatsapp) {

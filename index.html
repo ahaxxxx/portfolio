@@ -11,6 +11,8 @@
 </head>
 <body>
   <header class="hero">
+    <div class="hero-orb hero-orb-a"></div>
+    <div class="hero-orb hero-orb-b"></div>
     <nav class="nav container">
       <h1 class="brand" data-i18n="site.brand"></h1>
       <div class="controls">
@@ -21,17 +23,41 @@
 
     <section class="hero-content container">
       <img src="assets/photo.jpg" data-i18n-alt="hero.photoAlt" alt="" class="profile-image" />
-      <div>
+      <div class="hero-main">
         <p class="eyebrow" data-i18n="hero.eyebrow"></p>
         <h2 data-i18n="hero.name"></h2>
         <p class="subtitle" data-i18n="hero.subtitle"></p>
         <p class="summary" data-i18n="hero.summary"></p>
+        <div class="hero-actions">
+          <a class="btn" href="#contactSection" data-i18n="hero.ctaPrimary"></a>
+          <a class="btn btn-outline" href="https://ahaxxxx.github.io/Xenta-Field-CRM-Static-/" target="_blank" rel="noopener noreferrer" data-i18n="hero.ctaSecondary"></a>
+        </div>
+        <p class="hero-note" data-i18n="hero.crmNote"></p>
       </div>
+    </section>
+
+    <section class="container quick-facts reveal">
+      <article class="fact-card">
+        <p class="fact-value" data-i18n="facts.items.0.value"></p>
+        <p class="fact-label" data-i18n="facts.items.0.label"></p>
+      </article>
+      <article class="fact-card">
+        <p class="fact-value" data-i18n="facts.items.1.value"></p>
+        <p class="fact-label" data-i18n="facts.items.1.label"></p>
+      </article>
+      <article class="fact-card">
+        <p class="fact-value" data-i18n="facts.items.2.value"></p>
+        <p class="fact-label" data-i18n="facts.items.2.label"></p>
+      </article>
+      <article class="fact-card">
+        <p class="fact-value" data-i18n="facts.items.3.value"></p>
+        <p class="fact-label" data-i18n="facts.items.3.label"></p>
+      </article>
     </section>
   </header>
 
   <main>
-    <section class="section container">
+    <section class="section container reveal">
       <h3 data-i18n="about.title"></h3>
       <div class="grid two-col">
         <article class="card">
@@ -47,7 +73,7 @@
       </div>
     </section>
 
-    <section class="section section-alt">
+    <section class="section section-alt reveal">
       <div class="container">
         <h3 data-i18n="projects.title"></h3>
         <div class="grid three-col">
@@ -70,7 +96,7 @@
       </div>
     </section>
 
-    <section class="section container">
+    <section class="section container reveal">
       <h3 data-i18n="skills.title"></h3>
       <div class="skills">
         <span data-i18n="skills.items.0"></span>
@@ -82,7 +108,68 @@
       </div>
     </section>
 
-    <section class="section container">
+    <section class="section container reveal">
+      <h3 data-i18n="credentials.title"></h3>
+      <div class="grid three-col">
+        <article class="card">
+          <h4 data-i18n="credentials.items.0.title"></h4>
+          <p data-i18n="credentials.items.0.desc"></p>
+        </article>
+        <article class="card">
+          <h4 data-i18n="credentials.items.1.title"></h4>
+          <p data-i18n="credentials.items.1.desc"></p>
+        </article>
+        <article class="card">
+          <h4 data-i18n="credentials.items.2.title"></h4>
+          <p data-i18n="credentials.items.2.desc"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container reveal">
+      <h3 data-i18n="awards.title"></h3>
+      <p class="section-intro" data-i18n="awards.intro"></p>
+      <div class="grid two-col">
+        <article class="card">
+          <h4 data-i18n="awards.master.title"></h4>
+          <details class="awards-fold">
+            <summary data-i18n="awards.master.foldTitle"></summary>
+            <ul class="award-list award-list-locked">
+              <li><span data-i18n="awards.master.items.0"></span></li>
+              <li><span data-i18n="awards.master.items.1"></span></li>
+              <li><span data-i18n="awards.master.items.2"></span></li>
+              <li><span data-i18n="awards.master.items.3"></span></li>
+              <li><span data-i18n="awards.master.items.4"></span></li>
+              <li><span data-i18n="awards.master.items.5"></span></li>
+            </ul>
+          </details>
+        </article>
+        <article class="card">
+          <h4 data-i18n="awards.undergrad.title"></h4>
+          <details class="awards-fold">
+            <summary data-i18n="awards.undergrad.foldTitle"></summary>
+            <ul class="award-list award-list-locked">
+              <li><span data-i18n="awards.undergrad.items.0"></span></li>
+              <li><span data-i18n="awards.undergrad.items.1"></span></li>
+              <li><span data-i18n="awards.undergrad.items.2"></span></li>
+              <li><span data-i18n="awards.undergrad.items.3"></span></li>
+              <li><span data-i18n="awards.undergrad.items.4"></span></li>
+              <li><span data-i18n="awards.undergrad.items.5"></span></li>
+              <li><span data-i18n="awards.undergrad.items.6"></span></li>
+              <li><span data-i18n="awards.undergrad.items.7"></span></li>
+              <li><span data-i18n="awards.undergrad.items.8"></span></li>
+              <li><span data-i18n="awards.undergrad.items.9"></span></li>
+            </ul>
+          </details>
+        </article>
+      </div>
+      <div class="awards-actions">
+        <p class="section-intro" data-i18n="awards.privacyNote"></p>
+        <a class="btn" href="#contactSection" data-i18n="awards.requestAccess"></a>
+      </div>
+    </section>
+
+    <section id="contactSection" class="section container reveal">
       <h3 data-i18n="contact.title"></h3>
       <div id="contactLinks" class="contact-links"></div>
       <p id="copyFeedback" class="copy-feedback" aria-live="polite"></p>
