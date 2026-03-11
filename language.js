@@ -14,9 +14,9 @@
       eyebrow: "Portfolio",
       name: "Bozhan Li",
       photoAlt: "Profile photo of Bozhan Li",
-      subtitle: "Applied Mathematics Graduate | International Market & Product Marketing",
+      subtitle: "International Business Development with Analytical and Technical Depth",
       summary:
-        "Excellent Graduate of the School of Mathematics and Information Science, Guangxi University. I combine analytical thinking with market-facing execution, translating IVD product features into practical business decisions.",
+        "I build markets, understand technical products, and turn complex solutions into commercial results. My profile combines overseas business execution, pricing analysis, technical comprehension, and self-built CRM capability.",
       ctaPrimary: "Contact Me",
       ctaSecondary: "View CRM System",
       crmNote:
@@ -30,68 +30,91 @@
         { value: "B1/B2", label: "Valid 10-Year US Visa" }
       ]
     },
-    about: {
-      title: "About",
-      education: {
-        title: "Education",
-        item1:
-          "M.S. in Applied Mathematics, Guangxi University (Sep 2022 - Jun 2025), weighted average: 91.51/100.",
-        item2:
-          "B.M. in Human Resource Management, South China Normal University (Sep 2016 - Jul 2020), weighted average: 81.7/100."
-      },
-      experience: {
-        title: "Experience",
-        item1:
-          "International Market & Product Marketing at Xenta Biotech (Jun 2025 - Present).",
-        item2:
-          "Focused on market research and channel collaboration in parts of Africa and South America, with pricing analysis, distributor evaluations, and technical-commercial communication for POCT and CLIA products."
-      }
-    },
-    projects: {
-      title: "Selected Work",
+    positioning: {
+      title: "What I Bring",
+      intro:
+        "My edge is not a single label. It is the combination of market development, solution communication, and analytical execution.",
       items: [
         {
-          title: "CRM System",
-          desc: "Built an AI-assisted CRM system for customer and workflow management in practical business scenarios.",
-          tag: "Web App"
+          title: "Market Development",
+          desc:
+            "Expanded overseas opportunities across 8+ markets, built distributor pipelines, and pushed pilot orders toward repeatable business."
         },
         {
-          title: "Market Pricing Analysis",
-          desc: "Consolidated multi-country pricing structures and compared deal models (placement / non-placement / credit term / exclusivity) to support internal pricing and negotiation.",
-          tag: "Business Analysis"
+          title: "Solution Selling",
+          desc:
+            "Translate product logic into customer value, support technical-commercial discussions, and connect product features with local business needs."
         },
         {
-          title: "Research on Rough Sets",
-          desc: "Participated in NSFC-related research with data cleaning, algorithm replication, and comparative analysis for feature selection and uncertainty measurement.",
-          tag: "Research"
+          title: "Analytical Execution",
+          desc:
+            "Use pricing analysis, structured reporting, research training, and a self-built CRM system to improve sales discipline and decision quality."
         }
       ]
     },
-    skills: {
-      title: "Skills",
+    rolefit: {
+      title: "Role Fit",
+      intro:
+        "The same core strengths can be presented differently depending on the role. These are the positions where my profile is strongest.",
       items: [
-        "Excel",
-        "SPSS",
-        "Python",
-        "Market Research",
-        "Pricing Analysis",
-        "English Business Communication"
+        {
+          title: "International Sales",
+          desc: "Strong fit for overseas market development, distributor management, pricing negotiation, and emerging market execution.",
+          tag: "Commercial Growth"
+        },
+        {
+          title: "AI Solutions / Technical BD",
+          desc: "Suitable for roles that require technical comprehension, solution-based communication, structured follow-up, and converting complexity into business value.",
+          tag: "Solution Selling"
+        },
+        {
+          title: "Renewable Energy / Infrastructure Markets",
+          desc: "Relevant for infrastructure-led equipment markets where territory building, channel logic, and payment-risk awareness matter.",
+          tag: "Emerging Markets"
+        }
       ]
     },
-    credentials: {
-      title: "Credentials",
+    proof: {
+      title: "Selected Proof",
+      intro:
+        "These are the strongest pieces of evidence behind my profile, chosen to show business execution, technical understanding, and analytical depth together.",
       items: [
         {
-          title: "Award Certificate",
-          desc: "Excellent Graduate of Guangxi University School of Mathematics and Information Science."
+          title: "Overseas Market Development",
+          desc: "Handled market research, partner outreach, exhibitions, and customer communication across parts of Africa and South America.",
+          tag: "Field Execution"
         },
         {
-          title: "Research Publications",
-          desc: "Published / accepted works in Applied Soft Computing and other journals, focusing on rough sets, uncertainty measurement, and feature selection."
+          title: "Pricing and Cooperation Models",
+          desc: "Compared multi-country deal structures including placement, non-placement, credit term, and exclusivity to support negotiation and internal pricing decisions.",
+          tag: "Business Analysis"
         },
         {
-          title: "International Exposure",
-          desc: "Participated in exhibitions across Southeast Asia and Africa with direct communication experience with overseas distributors and lab stakeholders."
+          title: "CRM System",
+          desc: "Built an AI-assisted CRM tool independently to manage leads, accounts, records, and workflow visibility in a practical sales context.",
+          tag: "Digital Capability"
+        },
+        {
+          title: "Research and Publications",
+          desc: "Participated in NSFC-related research with data cleaning, algorithm reproduction, and comparative analysis; contributed to accepted and published papers.",
+          tag: "Analytical Depth"
+        }
+      ]
+    },
+    foundation: {
+      title: "Foundation",
+      items: [
+        {
+          title: "Education",
+          desc: "M.S. in Applied Mathematics at Guangxi University with weighted average 91.51/100; B.M. in Human Resource Management at South China Normal University with weighted average 81.7/100."
+        },
+        {
+          title: "Research Base",
+          desc: "Research assistant experience in the Key Laboratory of Complex System Optimization and Big Data Processing, with training in statistics, rough sets, and feature selection."
+        },
+        {
+          title: "Mobility and Communication",
+          desc: "Fluent in English business communication, valid 10-year US B1/B2 visa, overseas exhibition exposure in 7 countries, and open to long-term overseas assignments."
         }
       ]
     },
@@ -131,6 +154,27 @@
         "Certificate files are not publicly downloadable on this page. Access is shared on request to protect personal information.",
       requestAccess: "Request Access"
     },
+    resumeHub: {
+      title: "Resume Hub",
+      intro:
+        "For role-specific applications, I prepare targeted CV versions instead of using a single generic resume.",
+      en: {
+        title: "English CVs",
+        items: [
+          "Renewable Energy Markets CV",
+          "AI Solutions Sales CV",
+          "International Sales CV"
+        ]
+      },
+      zh: {
+        title: "中文版简历",
+        items: [
+          "新能源国际销售简历",
+          "AI解决方案销售简历",
+          "国际销售简历"
+        ]
+      }
+    },
     contact: {
       title: "Contact",
       email: "Email",
@@ -161,9 +205,9 @@
       eyebrow: "个人主页",
       name: "李博湛",
       photoAlt: "李博湛头像",
-      subtitle: "应用数学硕士 | 国际市场与产品营销",
+      subtitle: "兼具国际业务、分析能力与技术理解的复合型人才",
       summary:
-        "广西大学数学与信息科学学院优秀毕业生。我结合分析思维与市场执行能力，将体外诊断产品的技术特点转化为可落地的商业决策。",
+        "我能够把市场开拓、产品理解、数据分析和业务执行结合起来，将复杂产品和解决方案转化为实际商业结果。我的优势不在单一标签，而在跨业务与技术场景的综合适配能力。",
       ctaPrimary: "联系我",
       ctaSecondary: "查看CRM系统",
       crmNote:
@@ -177,64 +221,91 @@
         { value: "B1/B2", label: "美国十年签证状态" }
       ]
     },
-    about: {
-      title: "关于我",
-      education: {
-        title: "教育背景",
-        item1: "广西大学 应用数学硕士（2022年9月 - 2025年6月），加权平均分 91.51/100。",
-        item2: "华南师范大学 人力资源管理学士（2016年9月 - 2020年7月），加权平均分 81.7/100。"
-      },
-      experience: {
-        title: "工作经历",
-        item1: "胜泰生科（Xenta Biotech）国际市场与产品营销（2025年6月 - 至今）。",
-        item2: "负责非洲及南美部分市场调研与渠道对接，并支持 POCT / CLIA 产品定价分析、代理商评估及技术商务沟通。"
-      }
-    },
-    projects: {
-      title: "代表性工作",
+    positioning: {
+      title: "我的优势",
+      intro:
+        "我的核心竞争力不是某一个单点能力，而是国际业务、方案沟通与分析执行能力的结合。",
       items: [
         {
-          title: "CRM 系统",
-          desc: "基于 AI 辅助独立开发 CRM 系统，用于客户与业务流程管理。",
-          tag: "Web 应用"
+          title: "市场开发能力",
+          desc:
+            "能够开发海外市场、搭建代理商管道、推进试单转化，并逐步形成可复制的业务推进路径。"
         },
         {
-          title: "多国定价分析",
-          desc: "整理多国价格体系，对比投放 / 非投放 / 账期 / 独家等合作模式，支持公司内部定价与谈判。",
-          tag: "商业分析"
+          title: "方案销售能力",
+          desc:
+            "能够理解产品逻辑和技术要点，并将其转化为客户可感知的商业价值与合作理由。"
         },
         {
-          title: "粗糙集相关研究",
-          desc: "参与国家自然科学基金相关研究项目，负责数据清洗、算法复现与结果对比分析。",
-          tag: "科研"
+          title: "分析与执行能力",
+          desc:
+            "可通过定价分析、结构化汇报、研究训练和自建 CRM 系统提升销售管理质量与决策效率。"
         }
       ]
     },
-    skills: {
-      title: "技能",
+    rolefit: {
+      title: "岗位适配方向",
+      intro:
+        "同一套核心能力，可以面向不同岗位做有针对性的表达。以下是我最有竞争力的几个方向。",
       items: [
-        "Excel",
-        "SPSS",
-        "Python",
-        "市场调研",
-        "定价分析",
-        "英文商务沟通"
+        {
+          title: "国际销售",
+          desc: "适合海外市场开发、代理商管理、定价谈判、渠道拓展和新兴市场执行类岗位。",
+          tag: "业务增长"
+        },
+        {
+          title: "AI 解决方案 / 技术型 BD",
+          desc: "适合需要技术理解、方案式沟通、结构化跟进以及将复杂产品转成商业价值的岗位。",
+          tag: "方案销售"
+        },
+        {
+          title: "新能源 / 基础设施市场",
+          desc: "适合基础设施驱动设备需求、区域渠道开发、设备销售逻辑和支付风险控制相关岗位。",
+          tag: "新兴市场"
+        }
       ]
     },
-    credentials: {
-      title: "资质与证明",
+    proof: {
+      title: "代表性证据",
+      intro:
+        "下面这些经历最能证明我的复合优势，涵盖市场执行、技术理解、分析能力和工具意识。",
       items: [
         {
-          title: "荣誉证书",
-          desc: "广西大学数学与信息科学学院优秀毕业生。"
+          title: "海外市场开发",
+          desc: "参与非洲及南美部分市场调研、客户沟通、展会和渠道开发，具备真实国际业务推进经验。",
+          tag: "一线执行"
         },
         {
-          title: "论文成果",
-          desc: "围绕粗糙集、不确定性度量与特征选择方向，已发表/录用多篇相关论文。"
+          title: "多国定价与合作模式分析",
+          desc: "整理多国价格体系，对比投放、非投放、账期、独家等模式，支持内部定价与代理谈判。",
+          tag: "商业分析"
         },
         {
-          title: "国际业务经历",
-          desc: "已在东南亚与非洲参加展会，具备与海外代理及实验室客户的现场沟通经验。"
+          title: "CRM 系统",
+          desc: "基于 AI 辅助独立开发 CRM 系统，用于客户、线索和业务流程管理，体现数字化工具能力。",
+          tag: "工具能力"
+        },
+        {
+          title: "科研与论文",
+          desc: "参与国家自然科学基金相关研究项目，负责数据清洗、算法复现与结果分析，并参与论文产出。",
+          tag: "分析深度"
+        }
+      ]
+    },
+    foundation: {
+      title: "背景基础",
+      items: [
+        {
+          title: "教育背景",
+          desc: "广西大学应用数学硕士，加权平均分 91.51/100；华南师范大学人力资源管理学士，加权平均分 81.7/100。"
+        },
+        {
+          title: "研究基础",
+          desc: "具备复杂系统优化与大数据处理实验室研究经历，接触统计分析、粗糙集与特征选择方法。"
+        },
+        {
+          title: "国际流动性与沟通",
+          desc: "英文商务沟通流利，持有美国 B1/B2 十年签证，已在 7 个国家参加海外展会，可接受长期海外派驻。"
         }
       ]
     },
@@ -273,6 +344,27 @@
       privacyNote:
         "本页面不公开提供证书原件下载。为保护个人隐私，证书访问权限可联系本人获取。",
       requestAccess: "联系我获取访问权限"
+    },
+    resumeHub: {
+      title: "简历中心",
+      intro:
+        "针对不同岗位，我会使用不同版本的简历，而不是用一份泛化简历覆盖全部方向。",
+      en: {
+        title: "英文简历",
+        items: [
+          "新能源市场英文简历",
+          "AI 解决方案销售英文简历",
+          "国际销售英文简历"
+        ]
+      },
+      zh: {
+        title: "中文简历",
+        items: [
+          "新能源国际销售简历",
+          "AI解决方案销售简历",
+          "国际销售简历"
+        ]
+      }
     },
     contact: {
       title: "联系方式",
